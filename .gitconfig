@@ -1,0 +1,5 @@
+[user]
+	email = fredrik.j.lindberg@gmail.com
+	name = Fredrik Lindberg
+[core]
+	editor = nvim
