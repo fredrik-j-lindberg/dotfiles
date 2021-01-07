@@ -3,8 +3,9 @@ call plug#begin()
   Plug('mhartington/oceanic-next')
 call plug#end()
 
-"------- Config --------"
-" Enable theme colors
+"-------<General Config>
+"--<Appearance>
+"Enable theme colors
 if (has("termguicolors"))
  set termguicolors
 endif
@@ -12,3 +13,13 @@ endif
 " Set theme and enable syntax
 syntax enable
 colorscheme OceanicNext
+
+" Show line numbers
+set number
+"--</Appearance>
+"-------</General Config>
+
+"-------<Plugins Config>
+"--<PluginExample>
+"--</PluginExample>
+"-------</Plugins Config>
