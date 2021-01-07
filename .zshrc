@@ -1,4 +1,5 @@
 ########## Begin Aliases
+alias vim="nvim"
 alias ezsh="nvim ~/.zshrc"
 alias evim="nvim ~/.config/nvim/init.vim"
 alias etig="nvim ~/.tigrc"
