@@ -4,6 +4,7 @@ bind generic Y <sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
 bind generic y <sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
 # Enter commit diff with l
 bind generic l enter
+bind generic r :toggle commit-title-refs
 #----</Key Mappings>
 
 #----<Appearance>
@@ -12,6 +13,7 @@ set main-view-date = custom
 set main-view-date-format = "%m-%d %H:%M"
 set main-view-id = yes
 set main-view-author = abbreviated
+set main-view-commit-title-refs = no
 #--</Columns Settings>
 
 #--<Colors>
