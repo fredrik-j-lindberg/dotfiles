@@ -1,1 +1,22 @@
-bind generic Y @sh -c "echo %(commit) | pbcopy"
+#----<Key Mappings>
+#Yank commit hash (for some reason the regular tr -d '\n' piping did not work so had to use printf workaround)
+bind generic Y <sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
+bind generic y <sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
+# Enter commit diff with l
+bind generic l enter
+#----</Key Mappings>
+
+#----<Appearance>
+#--<Columns Settings>
+set main-view-date = custom
+set main-view-date-format = "%m-%d %H:%M"
+set main-view-id = yes
+set main-view-author = abbreviated
+#--</Columns Settings>
+
+#--<Colors>
+color "CommitDate: "		cyan	default
+color date			cyan	default
+color "author "			yellow	default
+#--</Colors>
+#----</Appearance>
