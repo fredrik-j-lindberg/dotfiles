@@ -1,24 +1,60 @@
 #----<Key Mappings>
-#Yank commit hash (for some reason the regular tr -d '\n' piping did not work so had to use printf workaround)
+# Yank commit hash (for some reason the regular tr -d '\n' piping did not work so had to use printf workaround)
 bind generic Y <sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
 bind generic y <sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
 # Enter commit diff with l
 bind generic l enter
+# Toggle commit title refs ([master] {origin/master} etc)
 bind generic r :toggle commit-title-refs
 #----</Key Mappings>
 
 #----<Appearance>
-#--<Columns Settings>
+color title-focus		39	232	bold reverse
+color cursor			232	cyan	bold
+#--<Main View Settings>
+# Enable line numbers
+set main-view-line-number = yes
+set main-view-line-number-interval = 1
+
+# Commit hash
+set main-view-id = yes
+color id 30 default bold
+
+# Date
 set main-view-date = custom
 set main-view-date-format = "%m-%d %H:%M"
-set main-view-id = yes
-set main-view-author = abbreviated
-set main-view-commit-title-refs = no
-#--</Columns Settings>
+color date 102 default
 
-#--<Colors>
-color "CommitDate: "		cyan	default
-color date			cyan	default
-color "author "			yellow	default
-#--</Colors>
+# Author
+set main-view-author = abbreviated
+color "author " 249 default bold
+
+# Timeline/Graph
+color graph-commit		154	default bold
+
+# Disable title refs in commit msg (see toggle cmd)
+set main-view-commit-title-refs = no
+#--</Main View Settings>
+
+#--<Diff view Settings>
+#Hide (gray out) mostly irrelevant information
+color diff-header		234	default
+color diff-index		233	233
+color diff-chunk		240	default
+color "---"			240	default	bold
+
+color "Merge: "			red	default	bold
+color "Refs: "			blue	default	bold
+color "commit "			red	default	bold
+color "Commit: "		102	default	bold
+color "CommitDate: "		102	default	bold
+color "Author: "		102	default	bold
+color "AuthorDate: "		102	default	bold
+
+color diff-stat			250	default bold
+color " +"			30	default
+color " -"			blue	default
+color "--- "			240	default
+color "+++ "			245	default bold
+#--</Diff View Settings>
 #----</Appearance>
