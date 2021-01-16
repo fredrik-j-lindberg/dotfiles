@@ -1,7 +1,7 @@
 #----<Key Mappings>
 # Yank commit hash (for some reason the regular tr -d '\n' piping did not work so had to use printf workaround)
-bind generic Y <sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
-bind generic y <sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
+bind generic Y @sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
+bind generic y @sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
 # Enter commit diff with l
 bind generic l enter
 # Toggle commit title refs ([master] {origin/master} etc)
