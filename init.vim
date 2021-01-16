@@ -4,6 +4,9 @@ call plug#begin()
 call plug#end()
 
 "-------<General Config>
+" Use system clipboard (and share y/p etc with other terminals)
+set clipboard=unnamed
+
 "--<Appearance>
 "Enable theme colors
 if (has("termguicolors"))
