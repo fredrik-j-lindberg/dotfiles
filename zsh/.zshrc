@@ -1,15 +1,9 @@
 export ZSH_DIR="$HOME/git/dotfiles/zsh"
 
 # Load config files
+[ -f $ZSH_DIR/prompt.zsh ] && source $ZSH_DIR/prompt.zsh
 [ -f $ZSH_DIR/aliases.zsh ] && source $ZSH_DIR/aliases.zsh
 [ -f $ZSH_DIR/node.zsh ] && source $ZSH_DIR/node.zsh
-
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
 
 ######### Begin Default/Oh-my-zsh config
 path+=($HOME/bin:/usr/local/bin)
@@ -59,14 +53,5 @@ zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.######### End User Config
 #### End Vim Config
-#### Begin Appearance config
-COMPLETION_WAITING_DOTS="true"
-# Theme
-# ZSH_THEME="robbyrussell"
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-#### End Appearance config
 ########## End User Config
 export PATH
