@@ -1,28 +1,12 @@
 export ZSH_DIR="$HOME/git/dotfiles/zsh"
 
 # Load config files
-[ -f $ZSH_DIR/prompt.zsh ] && source $ZSH_DIR/prompt.zsh
+[ -f $ZSH_DIR/prompt.zsh ] && source $ZSH_DIR/prompt.zsh #Should be loaded first (Instaprompt)
 [ -f $ZSH_DIR/aliases.zsh ] && source $ZSH_DIR/aliases.zsh
 [ -f $ZSH_DIR/node.zsh ] && source $ZSH_DIR/node.zsh
+[ -f $ZSH_DIR/oh-my-zsh.zsh ] && source $ZSH_DIR/oh-my-zsh.zsh
 
-######### Begin Default/Oh-my-zsh config
 path+=($HOME/bin:/usr/local/bin)
-
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/fredriklindberg/.oh-my-zsh"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-  zsh-autosuggestions
-)
-
-source $ZSH/oh-my-zsh.sh
-######### End Default/Oh-my-zsh config
 
 ######### Begin User Config
 ### Begin Vim Config
