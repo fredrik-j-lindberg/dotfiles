@@ -1,0 +1,20 @@
+# Load theme (colors, font-weight etc)
+source ~/git/dotfiles/tig/theme.tigrc
+
+### Main view
+# Enable line numbers
+set main-view-line-number = yes
+set main-view-line-number-interval = 1
+
+# Commit hash
+set main-view-id = yes
+
+# Date
+set main-view-date = custom
+set main-view-date-format = "%m-%d %H:%M"
+
+# Author
+set main-view-author = abbreviated
+
+# Disable title refs in commit msg (see toggle cmd)
+set main-view-commit-title-refs = no
