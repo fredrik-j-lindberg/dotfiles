@@ -6,6 +6,7 @@ export ZSH_DIR="$HOME/git/dotfiles/zsh"
 [ -f $ZSH_DIR/node.zsh ] && source $ZSH_DIR/node.zsh
 [ -f $ZSH_DIR/oh-my-zsh.zsh ] && source $ZSH_DIR/oh-my-zsh.zsh
 [ -f $ZSH_DIR/vim.zsh ] && source $ZSH_DIR/vim.zsh
+[ -f $ZSH_DIR/company-specific.zsh ] && source $ZSH_DIR/company-specific.zsh
 
 path+=($HOME/bin:/usr/local/bin)
 export PATH
