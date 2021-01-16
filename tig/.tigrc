@@ -1,53 +1,22 @@
 # Load config files
 source ~/git/dotfiles/tig/keybinds.tigrc
+source ~/git/dotfiles/tig/theme.tigrc
 
 #----<Appearance>
-color title-focus    39  232  bold reverse
-color cursor      232  cyan  bold
-#--<Main View Settings>
 # Enable line numbers
 set main-view-line-number = yes
 set main-view-line-number-interval = 1
 
 # Commit hash
 set main-view-id = yes
-color id 30 default bold
 
 # Date
 set main-view-date = custom
 set main-view-date-format = "%m-%d %H:%M"
-color date 102 default
 
 # Author
 set main-view-author = abbreviated
-color "author " 249 default bold
-
-# Timeline/Graph
-color graph-commit    154  default bold
 
 # Disable title refs in commit msg (see toggle cmd)
 set main-view-commit-title-refs = no
-#--</Main View Settings>
-
-#--<Diff view Settings>
-#Hide (gray out) mostly irrelevant information
-color diff-header    234  default
-color diff-index    233  233
-color diff-chunk    240  default
-color "---"         240  default  bold
-
-color "Merge: "      red  default  bold
-color "Refs: "      blue  default  bold
-color "commit "      red  default  bold
-color "Commit: "    102  default  bold
-color "CommitDate: "    102  default  bold
-color "Author: "    102  default  bold
-color "AuthorDate: "    102  default  bold
-
-color diff-stat      250  default bold
-color " +"      30  default
-color " -"      blue  default
-color "--- "      240  default
-color "+++ "      245  default bold
-#--</Diff View Settings>
 #----</Appearance>
