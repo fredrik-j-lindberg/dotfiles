@@ -6,6 +6,12 @@ bind generic y @sh -c "git rev-parse --short %(commit) | xargs printf | pbcopy"
 bind generic l enter
 # Toggle commit title refs ([master] {origin/master} etc)
 bind generic r :toggle commit-title-refs
+
+# Interactive rebase from selected commit
+bind generic <Ctrl-r> <git rebase -i %(commit)~1
+# Commit staged changes (and unbind ctrl+C as quit)
+bind generic <Ctrl-C> none
+bind generic <Ctrl-c> @git commit
 #----</Key Mappings>
 
 #----<Appearance>
