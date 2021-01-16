@@ -1,7 +1,5 @@
-call plug#begin()
-  " Theme
-  Plug('mhartington/oceanic-next')
-call plug#end()
+" Load config files
+source ~/git/dotfiles/vim/plugins.vim
 
 "-------<General Config>
 " Use system clipboard (and share y/p etc with other terminals)
@@ -21,8 +19,3 @@ colorscheme OceanicNext
 set number
 "--</Appearance>
 "-------</General Config>
-
-"-------<Plugins Config>
-"--<PluginExample>
-"--</PluginExample>
-"-------</Plugins Config>
