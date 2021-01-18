@@ -8,5 +8,8 @@ export ZSH_DIR="$HOME/git/dotfiles/zsh"
 [ -f $ZSH_DIR/vim.zsh ] && source $ZSH_DIR/vim.zsh
 [ -f $ZSH_DIR/company-specific.zsh ] && source $ZSH_DIR/company-specific.zsh
 
+# Load script functions
+[ -f $ZSH_DIR/scripts/open-in-github.zsh ] && source $ZSH_DIR/scripts/open-in-github.zsh
+
 path+=($HOME/bin:/usr/local/bin)
 export PATH
