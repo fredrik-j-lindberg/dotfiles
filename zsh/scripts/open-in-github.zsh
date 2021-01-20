@@ -16,7 +16,7 @@ function gh() {
     return
   fi
 
-  local remoteName="origin"
+  local remoteName=$(getCurrentRemoteName)
   local commit
   local branch
   local rest
@@ -48,7 +48,7 @@ function gh() {
     esac
   done
 
-  local remoteUrl=$(getRemoteUrl $useCurrentDir)
+  local remoteUrl=$(getRemoteUrl $useCurrentDir $remoteName)
   if [[ -z "$remoteUrl" ]]; then
     echo "Could not find remote url at this location for remote '$remoteName'. Make sure it is a git repo!"
     return
@@ -90,4 +90,10 @@ function openGitRepo() {
     link="$link/$2"
   fi
   open $link
+}
+
+function getCurrentRemoteName() {
+  # Get remote name from git status -sb.
+  # Expected format from -sb: "## branch-name...remoteName/branch-name"
+  echo $(git status -sb | cut -d "." -f 4 | cut -d "/" -f 1)
 }
