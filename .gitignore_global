@@ -1,0 +1,4 @@
+# Folder for local testing files
+.local-testing-files
+
+.vscode/launch.json

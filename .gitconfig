@@ -3,3 +3,4 @@
 	name = Fredrik Lindberg
 [core]
 	editor = code --wait
+	excludesfile = ~/git/dotfiles/.gitignore_global
