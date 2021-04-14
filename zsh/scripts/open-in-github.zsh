@@ -57,6 +57,9 @@ function gh() {
   if [[ -n $commit ]]; then
     openGitRepo $remoteUrl commit/$commit
   elif [[ -n $branch ]]; then
+    if [[ $branch == "current" ]]; then
+      branch=$(git branch --show-current)
+    fi
     openGitRepo $remoteUrl tree/$branch
   else
     openGitRepo $remoteUrl
