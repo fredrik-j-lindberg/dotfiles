@@ -2,3 +2,5 @@
 .local-testing-files
 
 .vscode/launch.json
+
+**/*.priv-fredrik*
