@@ -12,3 +12,11 @@ bind generic 2 ?<git rebase -i --exec "npm run test" %(commit)~1
 # Commit staged changes (and unbind ctrl+C as quit)
 bind generic <Ctrl-C> none
 bind generic <Ctrl-c> @git commit
+
+# Reference:
+#   !	Run the command in the foreground with output shown.
+#   @	Run the command in the background with no output.
+#   ?	Prompt the user before executing the command.
+#   +	Run the command synchronously, and echo the first line of output to the status bar.
+#   <	Exit Tig after executing the command.
+#   >	Re-open Tig instantly in the last displayed view after executing the command.
