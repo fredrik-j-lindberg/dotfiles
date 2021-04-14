@@ -3,8 +3,11 @@ source ~/git/dotfiles/tig/theme.tigrc
 
 ### Main view
 # Enable line numbers
-set main-view-line-number = yes
-set main-view-line-number-interval = 1
+# set main-view-line-number = yes
+# set main-view-line-number-interval = 1
+
+# Limit how many commits that are shown
+set main-options = -n 50
 
 # Commit hash
 set main-view-id = yes
