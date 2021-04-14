@@ -7,6 +7,7 @@ export ZSH_DIR="$HOME/git/dotfiles/zsh"
 [ -f $ZSH_DIR/oh-my-zsh.zsh ] && source $ZSH_DIR/oh-my-zsh.zsh
 [ -f $ZSH_DIR/vim.zsh ] && source $ZSH_DIR/vim.zsh
 [ -f $ZSH_DIR/company-specific.zsh ] && source $ZSH_DIR/company-specific.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Load script functions
 [ -f $ZSH_DIR/scripts/open-in-github.zsh ] && source $ZSH_DIR/scripts/open-in-github.zsh
