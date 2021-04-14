@@ -7,7 +7,7 @@ bind generic l enter
 bind generic r :toggle commit-title-refs
 
 # Interactive rebase from selected commit
-bind generic <Ctrl-r> <git rebase -i %(commit)~1
+bind generic 1 <git rebase -i %(commit)~1
 # Commit staged changes (and unbind ctrl+C as quit)
 bind generic <Ctrl-C> none
 bind generic <Ctrl-c> @git commit
