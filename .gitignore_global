@@ -4,3 +4,6 @@
 .vscode/launch.json
 
 **/*.priv-fredrik*
+
+# Test helper https://wallabyjs.com/
+wallaby.js
