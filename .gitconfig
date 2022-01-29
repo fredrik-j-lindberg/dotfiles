@@ -4,3 +4,5 @@
 [core]
 	editor = code --wait
 	excludesfile = ~/git/dotfiles/.gitignore_global
+[alias]
+	autoFixup = !git commit --fixup=$1 && git -c sequence.editor=: rebase -i --autosquash $1~1 && :
