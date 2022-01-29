@@ -9,7 +9,7 @@ bind generic r :toggle commit-title-refs
 bind refs 1 <git checkout %(branch)
 
 # Interactive rebase from selected commit
-bind generic 1 <git rebase -i %(commit)~1
+bind generic 1 <git rebase -i --autosquash %(commit)~1
 bind generic 2 ?<git rebase -i --exec "npm run test" %(commit)~1
 
 # Commit staged changes (and unbind ctrl+C as quit)
