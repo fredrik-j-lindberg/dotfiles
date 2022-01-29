@@ -12,6 +12,9 @@ bind refs 1 <git checkout %(branch)
 bind generic 1 <git rebase -i --autosquash %(commit)~1
 bind generic 2 ?<git rebase -i --exec "npm run test" %(commit)~1
 
+# Initiate an interactive fixup of currently staged changes into selected commit (uses git alias)
+bind generic 9 <git interactiveFixup %(commit)
+
 # Commit staged changes (and unbind ctrl+C as quit)
 bind generic <Ctrl-C> none
 bind generic <Ctrl-c> @git commit
