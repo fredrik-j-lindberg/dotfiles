@@ -1,7 +1,7 @@
-#--<load npm>
+#--<load node (and npm) using nvm>
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
-#--</load npm>
+#--</load node (and npm) using nvm>
 #--<npm completion>
 if type complete &>/dev/null; then
   _npm_completion() {
