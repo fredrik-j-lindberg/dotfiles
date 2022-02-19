@@ -1,6 +1,11 @@
 #--<load node (and npm) using nvm>
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh" --no-use
+if [ -f ".nvmrc" ]; then
+  nvm use >/dev/null
+else
+  nvm use default >/dev/null
+fi
 #--</load node (and npm) using nvm>
 #--<npm completion>
 if type complete &>/dev/null; then
