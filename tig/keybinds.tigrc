@@ -1,6 +1,7 @@
 # Yank commit hash
 bind generic y @sh -c "printf $(git rev-parse --short %(commit)) | pbcopy"
-bind generic Y @sh -c "printf $(git rev-parse --short %(commit)) | pbcopy"
+# Yank cherry pick command for commit
+bind generic Y @sh -c "printf \"git cherry-pick $(git rev-parse --short %(commit))\" | pbcopy"
 # Enter commit diff with l
 bind generic l enter
 # Toggle commit title refs ([master] {origin/master} etc)
