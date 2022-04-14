@@ -5,5 +5,8 @@
 	editor = code --wait
 	excludesfile = ~/git/dotfiles/.gitignore_global
 [alias]
-	autoFixup = !git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git -c sequence.editor=: rebase -i --autosquash $1~1  && git stash pop && :
-	interactiveFixup = !git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git rebase -i --autosquash $1~1 && git stash pop && :
+	hasStagedChanges = "!f() { \
+		       git diff --cached --quiet && git status && return 1 2>/dev/null || return 0; \
+		     }; f"
+	autoFixup = !git hasStagedChanges && git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git -c sequence.editor=: rebase -i --autosquash $1~1  && git stash pop && :
+	interactiveFixup = !git hasStagedChanges && git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git rebase -i --autosquash $1~1 && git stash pop && :
