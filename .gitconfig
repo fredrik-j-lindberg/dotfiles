@@ -8,5 +8,12 @@
 	hasStagedChanges = "!f() { \
 		       git diff --cached --quiet && git status && return 1 2>/dev/null || return 0; \
 		     }; f"
+	rbc = !git rebase --continue
+	rba = !git rebase --abort
+	cpc = !git cherry-pick --continue
+	cpa = !git cherry-pick --abort
+	cp = !git cherry-pick
+	cma = !git commit --amend
+	cman = !git commit --amend --no-edit --no-verify
 	autoFixup = !git hasStagedChanges && git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git -c sequence.editor=: rebase -i --autosquash $1~1  && git stash pop && :
 	interactiveFixup = !git hasStagedChanges && git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git rebase -i --autosquash $1~1 && git stash pop && :
