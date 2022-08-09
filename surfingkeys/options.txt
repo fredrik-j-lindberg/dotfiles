@@ -1,0 +1,43 @@
+// These settings are for the chrome extension "surfingkeys".
+// Depending on your surfinkeys setting setup this file could either be used via a direct link to the file of the repo
+// in which case changes here does not reflect until this file is pushed to the repo
+
+const {
+    aceVimMap,
+    mapkey,
+    imap,
+    imapkey,
+    getClickableElements,
+    vmapkey,
+    map,
+    unmap,
+    iunmap,
+    cmap,
+    addSearchAlias,
+    removeSearchAlias,
+    tabOpenLink,
+    readText,
+    Clipboard,
+    Front,
+    Hints,
+    Visual,
+    RUNTIME
+} = api;
+
+map('F', 'C');
+map('H', 'S');
+map('L', 'D');
+// Unmap t as it is used within github to search files
+unmap('t');
+// Unmap keys used for MR commit navigation in gitlab
+unmap('x');
+unmap('c');
+
+// Unmap : to avoid emoji menu
+iunmap(":");
+
+// Increase Hints (f) size
+Hints.style('font-size: 9pt;')
+
+// Make tab order (T) match original order
+settings.tabsMRUOrder = false;
