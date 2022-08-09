@@ -11,3 +11,5 @@ wallaby.js
 # https://github.com/wclr/yalc
 .yalc
 yalc.lock
+
+.env
