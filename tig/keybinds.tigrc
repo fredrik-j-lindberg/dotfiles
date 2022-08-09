@@ -1,7 +1,8 @@
 # Yank commit hash
 bind generic y @sh -c "printf $(git rev-parse --short %(commit)) | pbcopy"
 # Yank commit message
-bind generic Y @sh -c "git log -1 --pretty=format:%s %(commit) | pbcopy"
+bind generic m none
+bind generic m @sh -c "git log -1 --pretty=format:%s %(commit) | pbcopy"
 
 # Enter commit diff with l
 bind generic l enter
