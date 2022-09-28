@@ -1,6 +1,7 @@
 #--<load node (and npm) using nvm>
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh" --no-use
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use  # This loads nvm
 if [ -f ".nvmrc" ]; then
   nvm use >/dev/null
 else
