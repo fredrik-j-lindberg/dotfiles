@@ -10,7 +10,7 @@ export ZSH_DIR="$HOME/git/dotfiles/zsh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Load script functions
-[ -f $ZSH_DIR/scripts/open-in-github.zsh ] && source $ZSH_DIR/scripts/open-in-github.zsh
+# [ -f $ZSH_DIR/scripts/open-in-github.zsh ] && source $ZSH_DIR/scripts/open-in-github.zsh # Disable when using githubs cli tool
 [ -f $ZSH_DIR/scripts/z/z.sh ] && source $ZSH_DIR/scripts/z/z.sh
 
 path+=($HOME/bin:/usr/local/bin)
