@@ -15,3 +15,8 @@ export ZSH_DIR="$HOME/git/personal/dotfiles/zsh"
 
 path+=($HOME/bin:/usr/local/bin)
 export PATH
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/fredriklindberg/Desktop/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/fredriklindberg/Desktop/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/fredriklindberg/Desktop/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/fredriklindberg/Desktop/google-cloud-sdk/completion.zsh.inc'; fi
