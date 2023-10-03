@@ -5,3 +5,4 @@ alias evim="nvim ~/.config/nvim/init.vim"
 alias etig="nvim ~/.tigrc"
 alias fzfvim='nvim $(fzf)'
 alias fzfvimhidden='nvim $(find . | fzf)'
+alias home="cd ~"
