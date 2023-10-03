@@ -1,5 +1,5 @@
 # Load theme (colors, font-weight etc)
-source ~/git/dotfiles/tig/theme.tigrc
+source ~/git/personal/dotfiles/tig/theme.tigrc
 
 ### Main view
 # Enable line numbers

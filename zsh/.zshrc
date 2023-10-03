@@ -1,4 +1,4 @@
-export ZSH_DIR="$HOME/git/dotfiles/zsh"
+export ZSH_DIR="$HOME/git/personal/dotfiles/zsh"
 
 # Load config files
 [ -f $ZSH_DIR/prompt.zsh ] && source $ZSH_DIR/prompt.zsh #Should be loaded first (Instaprompt)
@@ -10,8 +10,13 @@ export ZSH_DIR="$HOME/git/dotfiles/zsh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Load script functions
-[ -f $ZSH_DIR/scripts/open-in-github.zsh ] && source $ZSH_DIR/scripts/open-in-github.zsh
+# [ -f $ZSH_DIR/scripts/open-in-github.zsh ] && source $ZSH_DIR/scripts/open-in-github.zsh # Disable when using githubs cli tool
 [ -f $ZSH_DIR/scripts/z/z.sh ] && source $ZSH_DIR/scripts/z/z.sh
 
 path+=($HOME/bin:/usr/local/bin)
 export PATH
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/fredriklindberg/Desktop/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/fredriklindberg/Desktop/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/fredriklindberg/Desktop/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/fredriklindberg/Desktop/google-cloud-sdk/completion.zsh.inc'; fi
