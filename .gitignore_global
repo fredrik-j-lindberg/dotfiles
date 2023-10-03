@@ -3,6 +3,7 @@
 
 .vscode/launch.json
 
+**/priv-fredrik/*
 **/*.priv-fredrik*
 
 # Test helper https://wallabyjs.com/
