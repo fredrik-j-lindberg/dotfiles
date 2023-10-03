@@ -18,3 +18,6 @@
 	autoFixup = !git hasStagedChanges && git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git -c sequence.editor=: rebase -i --autosquash $1~1  && git stash pop && :
 	interactiveFixup = !git hasStagedChanges && git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git rebase -i --autosquash $1~1 && git stash pop && :
 	please = push --force-with-lease
+[push]
+	autoSetupRemote = true
+	default = current
