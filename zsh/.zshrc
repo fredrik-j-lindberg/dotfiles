@@ -1,4 +1,5 @@
 export ZSH_DIR="$HOME/git/personal/dotfiles/zsh"
+export HISTFILE=$ZSH_DIR/.zsh_history
 
 # Load config files
 [ -f $ZSH_DIR/prompt.zsh ] && source $ZSH_DIR/prompt.zsh #Should be loaded first (Instaprompt)
