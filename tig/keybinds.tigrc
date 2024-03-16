@@ -25,6 +25,9 @@ bind generic 9 <git interactiveFixup %(commit)
 bind generic <Ctrl-C> none
 bind generic <Ctrl-c> @git commit
 
+# Reset to specific reflog entry
+bind reflog 1 <git reset --hard %(commit)
+
 # Reference:
 #   !	Run the command in the foreground with output shown.
 #   @	Run the command in the background with no output.
