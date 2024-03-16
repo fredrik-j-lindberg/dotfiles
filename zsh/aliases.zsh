@@ -6,7 +6,13 @@ alias etig="nvim ~/.tigrc"
 alias fzfvim='nvim $(fzf)'
 alias fzfvimhidden='nvim $(find . | fzf)'
 alias home="cd ~"
-alias prvieworcreate="gh pr view -w || (gh pr create --draft --fill --body '' && gh pr view -w)"
+prvieworcreate() {
+  bodyParam="--body ''"
+  template=$1
+  [[ -n "$template" ]] && bodyParam="--body-file $template"
+
+  gh pr view -w || (gh pr create  --draft  --fill $(echo "$bodyParam") && gh pr view -w)
+}
 
 # $1 = project name, $2 = subscription name, #3 = limit (number of messages. Very unreliable though... Might return less than limit despite there being more)
 getSubscriptionMessageJson() {
