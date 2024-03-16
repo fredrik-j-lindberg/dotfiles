@@ -6,6 +6,9 @@
 **/priv-fredrik/*
 **/*.priv-fredrik*
 
+# Apollo Graphql config file
+apollo.config.js
+
 # Test helper https://wallabyjs.com/
 wallaby.js
 
