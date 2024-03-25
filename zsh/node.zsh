@@ -1,12 +1,16 @@
 #--<load node (and npm) using nvm>
-export NVM_DIR="$HOME/.nvm"
+# export NVM_DIR="$HOME/.nvm"
 
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use  # This loads nvm
-if [ -f ".nvmrc" ]; then
-  nvm use >/dev/null
-else
-  nvm use default >/dev/null
-fi
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use  # This loads nvm
+# if [ -f ".nvmrc" ]; then
+#   nvm use >/dev/null
+# else
+#   nvm use default >/dev/null
+# fi
+#--</load node (and npm) using nvm>
+#--<load node (and npm) using volta>
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
 #--</load node (and npm) using nvm>
 #--<npm completion>
 if type complete &>/dev/null; then

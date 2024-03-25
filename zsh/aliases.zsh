@@ -1,3 +1,4 @@
+alias ls="ls --color=auto"
 alias vim="nvim"
 alias ezsh="nvim $ZSH_DIR/.zshrc"
 alias ealias="nvim $ZSH_DIR/aliases.zsh"
