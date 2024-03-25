@@ -22,5 +22,8 @@ eval "$(fzf --zsh)"
 # Set up smart cd with zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
+# Set up zsh-autosuggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Load script functions
 # [ -f $ZSH_DIR/scripts/open-in-github.zsh ] && source $ZSH_DIR/scripts/open-in-github.zsh # Disable when using githubs cli tool
