@@ -3,7 +3,7 @@
 	name = Fredrik Lindberg
 [core]
 	editor = code --wait
-	excludesfile = ~/git/personal/dotfiles/.gitignore_global
+	excludesfile = ~/git/personal/dotfiles/git/.gitignore_global
 [alias]
 	hasStagedChanges = "!f() { \
 		       git diff --cached --quiet && git status && return 1 2>/dev/null || return 0; \
