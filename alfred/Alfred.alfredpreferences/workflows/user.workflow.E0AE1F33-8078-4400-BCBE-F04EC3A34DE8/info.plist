@@ -484,7 +484,7 @@ function run() {
 }
 
 function generateScriptFilterItems() {
-  const command = `fd -H "^\.git$|^package.json$" --exclude 'node_modules' --exclude 'test' ~/git | xargs -n 1 dirname | sort | uniq | jq --raw-input '.' | jq -s '.'`
+  const command = `fd -Hu "^\.git$|^package.json$" --exclude 'node_modules' --exclude 'test' ~/git | xargs -n 1 dirname | sort | uniq | jq --raw-input '.' | jq -s '.'`
   const directoryPaths = app.doShellScript(command)
 
   return JSON.parse(directoryPaths).map((directoryPath) =&gt; {
