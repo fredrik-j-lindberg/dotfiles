@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>gcp.shortcuts</string>
+	<key>connections</key>
+	<dict>
+		<key>0449ACB6-F531-4074-9A64-386FDCA7569D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0EA9046E-FE8F-4F24-AAF1-0C1CA5464B96</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>24D31F40-57F1-4A32-B9D3-E283389FF14A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AA021884-7034-4900-9805-3320DE252235</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>07F51E05-E1DC-41F6-B786-F9DC2D2B0ABB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BF68A14A-54D4-4D57-BCBE-25A2AB1B1163</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0EA9046E-FE8F-4F24-AAF1-0C1CA5464B96</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A9FB1526-8C81-4D01-8E3D-8D6C017EA150</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>575A2D37-0AD5-4292-89E9-EB847A224F77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>008B4890-59AB-4B06-B9CB-6B0C776464E1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>582CC9D3-B0A9-4448-ACF5-1A10B0277A16</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>923A827F-048E-45E3-A1F0-C2C6AB18163C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6F4E118B-8185-4F32-9DBE-ABB5AC207292</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>575A2D37-0AD5-4292-89E9-EB847A224F77</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8563EED5-7EDF-4F82-819A-0F48C357E947</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C7363FB-915D-4635-B6CC-B7A8FD5B6377</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>B3C67E20-9432-428F-96CF-468180994E1B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>575A2D37-0AD5-4292-89E9-EB847A224F77</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>91C25130-46BA-4BF4-AD28-4D185F24CFE3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8563EED5-7EDF-4F82-819A-0F48C357E947</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A9FB1526-8C81-4D01-8E3D-8D6C017EA150</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4D91949A-34DB-4AFD-A656-3CB604CAD015</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B00ABEF0-C23B-4F34-8B11-16AFA33241D8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F4E118B-8185-4F32-9DBE-ABB5AC207292</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BA176F66-B03A-480E-A796-99EC6A0F3331</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A9FB1526-8C81-4D01-8E3D-8D6C017EA150</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BF68A14A-54D4-4D57-BCBE-25A2AB1B1163</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BA176F66-B03A-480E-A796-99EC6A0F3331</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>24D31F40-57F1-4A32-B9D3-E283389FF14A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0CB36B8A-0155-496D-A47E-FED75DB9444C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C212DB74-EE2C-4211-9EDE-CBC570DB7A3B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B00ABEF0-C23B-4F34-8B11-16AFA33241D8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D847D40F-824C-415A-8875-CEFE45AA4BB5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>91C25130-46BA-4BF4-AD28-4D185F24CFE3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E4D9051F-756A-4B49-9CAE-8F90F0FD96D6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D847D40F-824C-415A-8875-CEFE45AA4BB5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EA9DDCEE-8835-45DF-A3F8-ACAD6AE03226</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FB45D914-4F54-459B-8754-5BF780772087</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>582CC9D3-B0A9-4448-ACF5-1A10B0277A16</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Copy service account name</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>FB45D914-4F54-459B-8754-5BF780772087</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>923A827F-048E-45E3-A1F0-C2C6AB18163C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD704415-B7DB-4DC7-9EAF-9251CF5154C0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0449ACB6-F531-4074-9A64-386FDCA7569D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Fredrik Lindberg</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>GCP shortcuts</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>const app = Application.currentApplication()
+app.includeStandardAdditions = true
+
+ObjC.import("stdlib") // Support getenv
+const projectId = $.getenv("project_id") // Set in env variables
+
+function run() {
+  const alfredItems = generateItemsToCache()
+  return JSON.stringify(alfredItems, null, 2)
+}
+
+function generateItemsToCache() {
+  const topics = app.doShellScript(
+    `$gcloud_path pubsub topics list --format=json | jq '.[].name' | sed 's:.*/:":' | jq -s '.'`
+  )
+
+  return JSON.parse(topics).map((topic) =&gt; ({
+    title: topic,
+    subtitle: `Open topic in project ${projectId}`,
+    arg: topic,
+  }))
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>BA176F66-B03A-480E-A796-99EC6A0F3331</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>topic</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>const app = Application.currentApplication()
+app.includeStandardAdditions = true
+
+const cachefileName = "topic_cache"
+const directory = app.doShellScript("pwd")
+const cacheFilePath = directory + "/" + cachefileName + ".json"
+
+const generateCacheIconFilePath = directory + "/generateCacheIcon.png"
+
+function run(argv) {
+  const scriptFilterOutput = {
+    variables: { cacheFilePath },
+    items: generateScriptFilterItems(),
+  }
+  return JSON.stringify(scriptFilterOutput, null, 2)
+}
+
+function generateScriptFilterItems() {
+  const cachedItems = readListFromCache()
+
+  const generateCacheItem = {
+    title: "Generate new cached data",
+    subtitle:
+      "This will take up to a minute",
+    arg: "generate_cache",
+    icon: { path: generateCacheIconFilePath }
+  }
+  if (!cachedItems) return [generateCacheItem]
+  return [generateCacheItem, ...cachedItems]
+}
+
+function readListFromCache() {
+  try {
+    return JSON.parse(app.read(Path(cacheFilePath)))
+  } catch (err) {
+    console.log(err)
+    return null
+  }
+}
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>open &lt;topic&gt;</string>
+				<key>title</key>
+				<string>Open PubSub topic</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>07F51E05-E1DC-41F6-B786-F9DC2D2B0ABB</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>generate_cache</string>
+						<key>outputlabel</key>
+						<string>Generate Cache</string>
+						<key>uid</key>
+						<string>24D31F40-57F1-4A32-B9D3-E283389FF14A</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Open topic</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>BF68A14A-54D4-4D57-BCBE-25A2AB1B1163</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://console.cloud.google.com/cloudpubsub/topic/detail/{query}?project={var:project_id}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0CB36B8A-0155-496D-A47E-FED75DB9444C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>The generated cached data is now ready to be used</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>4D91949A-34DB-4AFD-A656-3CB604CAD015</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>const app = Application.currentApplication()
+app.includeStandardAdditions = true
+
+ObjC.import("stdlib") // Support getenv
+const cacheFilePath = $.getenv("cacheFilePath") // Set prior in workflow
+
+function run(argv) {
+  writeToCache(argv)
+}
+
+function writeToCache(text) {
+  str = $.NSString.alloc.initWithUTF8String(text)
+  str.writeToFileAtomically(cacheFilePath, true)
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A9FB1526-8C81-4D01-8E3D-8D6C017EA150</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>const app = Application.currentApplication()
+app.includeStandardAdditions = true
+
+ObjC.import("stdlib") // Support getenv
+const projectId = $.getenv("project_id") // Set in env variables
+
+function run() {
+  const alfredItems = generateItemsToCache()
+  return JSON.stringify(alfredItems, null, 2)
+}
+
+function generateItemsToCache() {
+  const subscriptions = app.doShellScript(
+    `$gcloud_path pubsub subscriptions list --project=${projectId} --format=json | jq '.[].name' | sed 's:.*/:":' | jq -s '.'`
+  )
+
+  return JSON.parse(subscriptions).map((subscription) =&gt; ({
+    title: subscription,
+    subtitle: `Open subscription in project ${projectId}`,
+    arg: subscription,
+  }))
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0EA9046E-FE8F-4F24-AAF1-0C1CA5464B96</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>subscription</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>const app = Application.currentApplication()
+app.includeStandardAdditions = true
+
+const cachefileName = "subscription_cache"
+const directory = app.doShellScript("pwd")
+const cacheFilePath = directory + "/" + cachefileName + ".json"
+
+const generateCacheIconFilePath = directory + "/generateCacheIcon.png"
+
+function run(argv) {
+  const scriptFilterOutput = {
+    variables: { cacheFilePath },
+    items: generateScriptFilterItems(),
+  }
+  return JSON.stringify(scriptFilterOutput, null, 2)
+}
+
+function generateScriptFilterItems() {
+  const cachedItems = readListFromCache()
+
+  const generateCacheItem = {
+    title: "Generate new cached data",
+    subtitle:
+      "This will take up to a minute",
+    arg: "generate_cache",
+    icon: { path: generateCacheIconFilePath }
+  }
+  if (!cachedItems) return [generateCacheItem]
+  return [generateCacheItem, ...cachedItems]
+}
+
+function readListFromCache() {
+  try {
+    return JSON.parse(app.read(Path(cacheFilePath)))
+  } catch (err) {
+    console.log(err)
+    return null
+  }
+}
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>open &lt;subscription&gt;</string>
+				<key>title</key>
+				<string>Open PubSub subscription</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FD704415-B7DB-4DC7-9EAF-9251CF5154C0</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>generate_cache</string>
+						<key>outputlabel</key>
+						<string>Generate Cache</string>
+						<key>uid</key>
+						<string>24D31F40-57F1-4A32-B9D3-E283389FF14A</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Open subscription</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>0449ACB6-F531-4074-9A64-386FDCA7569D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://console.cloud.google.com/cloudpubsub/subscription/detail/{query}?project=vcm-production-core&amp;tab=messages</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>AA021884-7034-4900-9805-3320DE252235</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>bucket</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>$gcloud_path storage buckets list --project=$project_id --format=json | jq '[.[] | { title: .id, subtitle: .selfLink, arg: .id }] | { items: . }'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>bucket &lt;bucket name&gt;</string>
+				<key>title</key>
+				<string>Select GCP bucket</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E4D9051F-756A-4B49-9CAE-8F90F0FD96D6</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open https://console.cloud.google.com/storage/browser/$bucket_name</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4C7363FB-915D-4635-B6CC-B7A8FD5B6377</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>subtext</key>
+				<string>Leave blank to open bucket {var:bucket_name}</string>
+				<key>text</key>
+				<string>Open {query} in bucket</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>91C25130-46BA-4BF4-AD28-4D185F24CFE3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Empty query</string>
+						<key>uid</key>
+						<string>B3C67E20-9432-428F-96CF-468180994E1B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Open file</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>8563EED5-7EDF-4F82-819A-0F48C357E947</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>bucket_name</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D847D40F-824C-415A-8875-CEFE45AA4BB5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>receipt</string>
+				<key>subtext</key>
+				<string>Open receipt number in GCP bucket</string>
+				<key>text</key>
+				<string>Open receipt {query}</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C212DB74-EE2C-4211-9EDE-CBC570DB7A3B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open https://console.cloud.google.com/storage/browser/_details/$bucket_name/$file_name</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>008B4890-59AB-4B06-B9CB-6B0C776464E1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>file_name</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>575A2D37-0AD5-4292-89E9-EB847A224F77</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>bucket_name</key>
+					<string>vcm-production-receipts-by-id</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>6F4E118B-8185-4F32-9DBE-ABB5AC207292</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>$</string>
+				<key>regexcaseinsensitive</key>
+				<false/>
+				<key>regexmultiline</key>
+				<false/>
+				<key>replacestring</key>
+				<string>.html</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>B00ABEF0-C23B-4F34-8B11-16AFA33241D8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>$gcloud_path auth print-access-token --impersonate-service-account $1@$project_id.iam.gserviceaccount.com | pbcopy</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>FB45D914-4F54-459B-8754-5BF780772087</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>servicetoken</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Fetching results... Please wait</string>
+				<key>script</key>
+				<string>$gcloud_path iam service-accounts list --project=$project_id --format=json | jq '[.[] | select (.displayName != null) | { title: .displayName, subtitle: .displayName, arg: .displayName}] | { items: . }'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>servicetoken &lt;service account&gt;</string>
+				<key>title</key>
+				<string>Copy an iam service token</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>servicetoken</string>
+				<key>inputmode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>EA9DDCEE-8835-45DF-A3F8-ACAD6AE03226</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.hidealfred</string>
+			<key>uid</key>
+			<string>923A827F-048E-45E3-A1F0-C2C6AB18163C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>echo -n $1@$project_id.iam | pbcopy</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>582CC9D3-B0A9-4448-ACF5-1A10B0277A16</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>008B4890-59AB-4B06-B9CB-6B0C776464E1</key>
+		<dict>
+			<key>note</key>
+			<string>Open bucket file</string>
+			<key>xpos</key>
+			<real>1155</real>
+			<key>ypos</key>
+			<real>915</real>
+		</dict>
+		<key>0449ACB6-F531-4074-9A64-386FDCA7569D</key>
+		<dict>
+			<key>xpos</key>
+			<real>415</real>
+			<key>ypos</key>
+			<real>420</real>
+		</dict>
+		<key>07F51E05-E1DC-41F6-B786-F9DC2D2B0ABB</key>
+		<dict>
+			<key>xpos</key>
+			<real>210</real>
+			<key>ypos</key>
+			<real>105</real>
+		</dict>
+		<key>0CB36B8A-0155-496D-A47E-FED75DB9444C</key>
+		<dict>
+			<key>note</key>
+			<string>Open topic in GCP</string>
+			<key>xpos</key>
+			<real>605</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>0EA9046E-FE8F-4F24-AAF1-0C1CA5464B96</key>
+		<dict>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>385</real>
+		</dict>
+		<key>4C7363FB-915D-4635-B6CC-B7A8FD5B6377</key>
+		<dict>
+			<key>note</key>
+			<string>Open bucket</string>
+			<key>xpos</key>
+			<real>955</real>
+			<key>ypos</key>
+			<real>765</real>
+		</dict>
+		<key>4D91949A-34DB-4AFD-A656-3CB604CAD015</key>
+		<dict>
+			<key>xpos</key>
+			<real>1055</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>575A2D37-0AD5-4292-89E9-EB847A224F77</key>
+		<dict>
+			<key>note</key>
+			<string>Set query as filename var</string>
+			<key>xpos</key>
+			<real>1030</real>
+			<key>ypos</key>
+			<real>945</real>
+		</dict>
+		<key>582CC9D3-B0A9-4448-ACF5-1A10B0277A16</key>
+		<dict>
+			<key>note</key>
+			<string>Copy service account name to clipboard</string>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>1310</real>
+		</dict>
+		<key>6F4E118B-8185-4F32-9DBE-ABB5AC207292</key>
+		<dict>
+			<key>note</key>
+			<string>Add bucket_name var</string>
+			<key>xpos</key>
+			<real>900</real>
+			<key>ypos</key>
+			<real>945</real>
+		</dict>
+		<key>8563EED5-7EDF-4F82-819A-0F48C357E947</key>
+		<dict>
+			<key>note</key>
+			<string>If no query, open bucket. Else open file specified</string>
+			<key>xpos</key>
+			<real>805</real>
+			<key>ypos</key>
+			<real>785</real>
+		</dict>
+		<key>91C25130-46BA-4BF4-AD28-4D185F24CFE3</key>
+		<dict>
+			<key>note</key>
+			<string>Enter what file to open (empty = open bucket)</string>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>765</real>
+		</dict>
+		<key>923A827F-048E-45E3-A1F0-C2C6AB18163C</key>
+		<dict>
+			<key>xpos</key>
+			<real>800</real>
+			<key>ypos</key>
+			<real>1255</real>
+		</dict>
+		<key>A9FB1526-8C81-4D01-8E3D-8D6C017EA150</key>
+		<dict>
+			<key>note</key>
+			<string>Write to cache</string>
+			<key>xpos</key>
+			<real>855</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>AA021884-7034-4900-9805-3320DE252235</key>
+		<dict>
+			<key>note</key>
+			<string>Open subscription in GCP</string>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>520</real>
+		</dict>
+		<key>B00ABEF0-C23B-4F34-8B11-16AFA33241D8</key>
+		<dict>
+			<key>note</key>
+			<string>Suffix query with .html to allow only pasting receipt number in search</string>
+			<key>xpos</key>
+			<real>770</real>
+			<key>ypos</key>
+			<real>945</real>
+		</dict>
+		<key>BA176F66-B03A-480E-A796-99EC6A0F3331</key>
+		<dict>
+			<key>xpos</key>
+			<real>605</real>
+			<key>ypos</key>
+			<real>90</real>
+		</dict>
+		<key>BF68A14A-54D4-4D57-BCBE-25A2AB1B1163</key>
+		<dict>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>125</real>
+		</dict>
+		<key>C212DB74-EE2C-4211-9EDE-CBC570DB7A3B</key>
+		<dict>
+			<key>note</key>
+			<string>Enter what receipt number to open</string>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>915</real>
+		</dict>
+		<key>D847D40F-824C-415A-8875-CEFE45AA4BB5</key>
+		<dict>
+			<key>note</key>
+			<string>Set query as bucket_name var</string>
+			<key>xpos</key>
+			<real>460</real>
+			<key>ypos</key>
+			<real>795</real>
+		</dict>
+		<key>E4D9051F-756A-4B49-9CAE-8F90F0FD96D6</key>
+		<dict>
+			<key>note</key>
+			<string>Select what bucket to operate on</string>
+			<key>xpos</key>
+			<real>215</real>
+			<key>ypos</key>
+			<real>765</real>
+		</dict>
+		<key>EA9DDCEE-8835-45DF-A3F8-ACAD6AE03226</key>
+		<dict>
+			<key>note</key>
+			<string>Choose service account to copy token from</string>
+			<key>xpos</key>
+			<real>210</real>
+			<key>ypos</key>
+			<real>1135</real>
+		</dict>
+		<key>FB45D914-4F54-459B-8754-5BF780772087</key>
+		<dict>
+			<key>note</key>
+			<string>Copy service account token to clipboard</string>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>1135</real>
+		</dict>
+		<key>FD704415-B7DB-4DC7-9EAF-9251CF5154C0</key>
+		<dict>
+			<key>xpos</key>
+			<real>210</real>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variables</key>
+	<dict>
+		<key>gcloud_path</key>
+		<string>/Users/fredriklindberg/Desktop/google-cloud-sdk/bin/gcloud</string>
+		<key>project_id</key>
+		<string>vcm-production-core</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string></string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

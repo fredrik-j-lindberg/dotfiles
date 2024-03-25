@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.ports</string>
+	<key>connections</key>
+	<dict>
+		<key>4D4C0EFF-0EDA-457F-B195-8A1AF6568DA5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>11989816-10AF-408A-9F8C-F81495B6537C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>DFC2A1A0-A906-439F-BD3C-FE3D887D108C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>88BB04EB-6F6D-455C-AB8D-4EBB76E445A3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C238AEC0-CBE8-46EA-8507-B75BAB2899AB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>11989816-10AF-408A-9F8C-F81495B6537C</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Kill process with PID {var:pid}</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4D4C0EFF-0EDA-457F-B195-8A1AF6568DA5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D50DB9B2-1E95-4752-B8A0-FA2091973DF1</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>Fredrik Lindberg</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Node processes</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>oldport</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>lsof -i -n -P | grep node | grep '\*' | tr -s ' ' | jq -R 'split(" ") | { name: .[0], portRaw: .[8], pid: .[1] }' | jq '. + {port: (.portRaw | split(":") | .[1] | split("-&gt;") | .[0])} | { title: .port, subtitle: ("Open port with PID " + .pid), arg: .port, variables: { pid: .pid } }' | jq -s '{ items: . }'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>open &lt;port&gt;</string>
+				<key>title</key>
+				<string>Open node process using port</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D50DB9B2-1E95-4752-B8A0-FA2091973DF1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>kill -9 {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>11989816-10AF-408A-9F8C-F81495B6537C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>port</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>const app = Application.currentApplication();
+app.includeStandardAdditions = true;
+
+function run() {
+  const scriptFilterOutput = {
+    items: generateScriptFilterItems(),
+  };
+  return JSON.stringify(scriptFilterOutput, null, 2);
+}
+
+const directory = app.doShellScript("pwd")
+const iconFilePaths = {
+  chrome: directory + "/chrome.png",
+}
+
+function generateScriptFilterItems() {
+  const command = `lsof -i -n -P | grep node | grep '\*' | tr -s ' ' | jq -R 'split(" ")' | jq -n '[inputs]'`;
+  const nodeProcesses = JSON.parse(app.doShellScript(command));
+
+  // Example output after map:
+  // { "command": "node", "port": "3008", "pid": "63997" }
+  const processes = nodeProcesses.map(item =&gt; ({
+    command: item[0],
+    pid: item[1],
+    port: item[8].split(':')[1].split('-&gt;')[0], // Trim the field to be left with the port number
+  }));
+
+  const allNodePids = processes.map(item =&gt; item.pid).join(' ');
+  return [
+    ...processes.map(item =&gt; ({
+      title: item.port,
+      subtitle: `Open port with PID ${item.pid}`,
+      arg: item.pid,
+      variables: { port: item.port },
+      icon: { path: iconFilePaths.chrome },
+    })),
+    {
+      title: 'Kill all node processes',
+      variables: { option: "kill-all" },
+      arg: allNodePids,
+    },
+  ];
+}
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>ide &lt;folder name&gt;</string>
+				<key>title</key>
+				<string>Loading local repositories...</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C238AEC0-CBE8-46EA-8507-B75BAB2899AB</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open http://localhost:$port</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>88BB04EB-6F6D-455C-AB8D-4EBB76E445A3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:option}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>kill-all</string>
+						<key>outputlabel</key>
+						<string>Kill all</string>
+						<key>uid</key>
+						<string>DFC2A1A0-A906-439F-BD3C-FE3D887D108C</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4D4C0EFF-0EDA-457F-B195-8A1AF6568DA5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This is a workflow that allows you to easily open up any local git repository in vscode. It also supports opening up any directory which contains a package.json file, which can be useful when working with large monorepos.
+
+It ignores node modules and test folders.</string>
+	<key>uidata</key>
+	<dict>
+		<key>11989816-10AF-408A-9F8C-F81495B6537C</key>
+		<dict>
+			<key>xpos</key>
+			<real>615</real>
+			<key>ypos</key>
+			<real>260</real>
+		</dict>
+		<key>4D4C0EFF-0EDA-457F-B195-8A1AF6568DA5</key>
+		<dict>
+			<key>xpos</key>
+			<real>410</real>
+			<key>ypos</key>
+			<real>395</real>
+		</dict>
+		<key>88BB04EB-6F6D-455C-AB8D-4EBB76E445A3</key>
+		<dict>
+			<key>xpos</key>
+			<real>620</real>
+			<key>ypos</key>
+			<real>390</real>
+		</dict>
+		<key>C238AEC0-CBE8-46EA-8507-B75BAB2899AB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>Select which (local) repository to work on</string>
+			<key>xpos</key>
+			<real>170</real>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+		<key>D50DB9B2-1E95-4752-B8A0-FA2091973DF1</key>
+		<dict>
+			<key>xpos</key>
+			<real>105</real>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variables</key>
+	<dict>
+		<key>cache_file_name</key>
+		<string>port_cache</string>
+		<key>code_path</key>
+		<string>/usr/local/bin/code</string>
+		<key>fd_path</key>
+		<string>/opt/homebrew/bin/fd</string>
+		<key>repo_path</key>
+		<string>/Users/fredriklindberg/git</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>repo_path</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

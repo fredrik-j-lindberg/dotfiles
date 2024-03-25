@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "3000",
+      "subtitle": "Open port with PID 62867",
+      "arg": {
+        "pid": "62867",
+        "port": "3000"
+      }
+    },
+    {
+      "title": "3100",
+      "subtitle": "Open port with PID 66255",
+      "arg": {
+        "pid": "66255",
+        "port": "3100"
+      }
+    },
+    {
+      "title": "6565",
+      "subtitle": "Open port with PID 66256",
+      "arg": {
+        "pid": "66256",
+        "port": "6565"
+      }
+    },
+    {
+      "title": "8081",
+      "subtitle": "Open port with PID 66256",
+      "arg": {
+        "pid": "66256",
+        "port": "8081"
+      }
+    },
+    {
+      "title": "8080",
+      "subtitle": "Open port with PID 66268",
+      "arg": {
+        "pid": "66268",
+        "port": "8080"
+      }
+    }
+  ]
+}

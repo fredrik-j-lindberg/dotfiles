@@ -1,0 +1,27 @@
+{
+  "name" : "Write to cache",
+  "data" : {
+    "items" : [
+      {
+        "workflowobjecttype" : "alfred.workflow.action.script",
+        "uid" : "A9FB1526-8C81-4D01-8E3D-8D6C017EA150",
+        "note" : "Write to cache",
+        "workflowobjectconfig" : {
+          "script" : "const app = Application.currentApplication()\napp.includeStandardAdditions = true\n\nObjC.import(\"stdlib\") \/\/ Support getenv\nconst cacheFilePath = $.getenv(\"cacheFilePath\") \/\/ Set prior in workflow\n\nfunction run(argv) {\n  writeToCache(argv)\n}\n\nfunction writeToCache(text) {\n  str = $.NSString.alloc.initWithUTF8String(text)\n  str.writeToFileAtomically(cacheFilePath, true)\n}",
+          "scriptfile" : "",
+          "escaping" : 68,
+          "scriptargtype" : 1,
+          "type" : 7,
+          "concurrently" : false
+        },
+        "colorindex" : 0,
+        "ypos" : 5,
+        "xpos" : 20
+      }
+    ],
+    "connections" : [
+
+    ]
+  },
+  "description" : "Write the input to a cache file. Requires the \"cacheFilePath\" variable to be set"
+}

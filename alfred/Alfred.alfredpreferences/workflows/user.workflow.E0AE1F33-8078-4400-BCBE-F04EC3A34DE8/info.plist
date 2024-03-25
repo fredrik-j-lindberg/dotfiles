@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>0DBB7CAE-9C23-4DBA-9A5F-1AAF12E43126</key>
+		<array/>
+		<key>161263C0-30DF-4081-AD7B-06C661C1EA2F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B0A78364-08F7-4C8F-958D-D3DA459E64BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2729AEAA-7925-4D42-B4B6-20857BB1DFCD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FD775086-E368-44D4-8897-22E9AE2D1DDF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3846A3F1-381B-4916-A2FF-C1AB827830C3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>161263C0-30DF-4081-AD7B-06C661C1EA2F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>61A96D63-1886-4DF9-8A21-CB45301786A4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E08459F6-E9A5-4893-982E-810AF17EC153</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>66AAC14A-8C97-43A2-B59A-04A7E1AA8928</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9562ABD9-902D-4285-879F-97209348EAF8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9562ABD9-902D-4285-879F-97209348EAF8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2ED2888D-EC8F-412E-BE2A-3487DB9BBD7D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>11989816-10AF-408A-9F8C-F81495B6537C</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3846A3F1-381B-4916-A2FF-C1AB827830C3</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E3B06560-3AD9-481D-B761-A09AA21BBF74</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B0A78364-08F7-4C8F-958D-D3DA459E64BF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>61A96D63-1886-4DF9-8A21-CB45301786A4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>07407E75-C4DD-4650-BCCA-2A6BF62038AF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>688513CD-C9CB-431C-93F6-44B112C67398</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>53E73C22-E4BB-4CFF-8C61-B19A791114A2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2B826681-6AF8-4D2C-9F31-D9B5598680CD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A7AF0423-6D43-409F-88EF-992A8C72DBC2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A4BFB489-C8D8-4FE9-A67C-2C1F7C214AE5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E08459F6-E9A5-4893-982E-810AF17EC153</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2729AEAA-7925-4D42-B4B6-20857BB1DFCD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0DBB7CAE-9C23-4DBA-9A5F-1AAF12E43126</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD775086-E368-44D4-8897-22E9AE2D1DDF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D7682C84-4810-41CD-805A-AFDF131AACEC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Fredrik Lindberg</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Ide</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>servicetoken</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>gcp.shortcuts</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>D7682C84-4810-41CD-805A-AFDF131AACEC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string></string>
+				<key>replacestring</key>
+				<string>{var:directoryName}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>FD775086-E368-44D4-8897-22E9AE2D1DDF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2729AEAA-7925-4D42-B4B6-20857BB1DFCD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>code $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2ED2888D-EC8F-412E-BE2A-3487DB9BBD7D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>set -x
+
+main() {
+  docker compose -f $dockerComposeFilePath up $1 -d
+}
+
+main $1 1&gt;&amp;2</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0DBB7CAE-9C23-4DBA-9A5F-1AAF12E43126</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>const app = Application.currentApplication()
+app.includeStandardAdditions = true
+
+ObjC.import("stdlib") // Support getenv
+const dockerComposeFilePath = $.getenv("dockerComposeFilePath")
+
+function run(argv) {
+  const scriptFilterOutput = {
+    items: generateScriptFilterItems(),
+  }
+  return JSON.stringify(scriptFilterOutput, null, 2)
+}
+
+function generateScriptFilterItems() {
+  const command = `cat ${dockerComposeFilePath} | yq -o=json '.services | keys'`
+  const dockerServices = app.doShellScript(command)
+
+  return JSON.parse(dockerServices).map((service) =&gt; {
+    return {
+      title: service,
+      subtitle: `Start docker container`,
+      arg: service,
+      uid: service,
+    }
+  })
+}
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>intellij &lt;folder name&gt;</string>
+				<key>title</key>
+				<string>Start docker container</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E08459F6-E9A5-4893-982E-810AF17EC153</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>61A96D63-1886-4DF9-8A21-CB45301786A4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>50</integer>
+				<key>hotmod</key>
+				<integer>1048576</integer>
+				<key>hotstring</key>
+				<string>&lt;</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>66AAC14A-8C97-43A2-B59A-04A7E1AA8928</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ide</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>const app = Application.currentApplication()
+app.includeStandardAdditions = true
+
+const directory = app.doShellScript("pwd")
+const iconFilePaths = {
+  vscode: directory + "/vscode.png",
+  intellij: directory + "/intellij.png",
+  folderActions: directory + "/folder-actions.png",
+}
+
+function run() {
+  const scriptFilterOutput = {
+    items: generateScriptFilterItems(),
+  }
+  return JSON.stringify(scriptFilterOutput, null, 2)
+}
+
+function generateScriptFilterItems() {
+  const command = `fd -H "^\.git$|^package.json$" --exclude 'node_modules' --exclude 'test' ~/git | xargs -n 1 dirname | sort | uniq | jq --raw-input '.' | jq -s '.'`
+  const directoryPaths = app.doShellScript(command)
+
+  return JSON.parse(directoryPaths).map((directoryPath) =&gt; {
+    const dirName = directoryPath.split("/").pop()
+    return {
+      title: dirName,
+      subtitle: `Open in vs code`,
+      arg: directoryPath,
+      uid: directoryPath,
+      icon: { path: iconFilePaths.vscode },
+      mods: {
+        alt: {
+          subtitle: "Open in intellij",
+          arg: directoryPath,
+          icon: { path: iconFilePaths.intellij },
+        },
+        cmd: {
+          subtitle: "Show folder actions",
+          icon: { path: iconFilePaths.folderActions },
+          variables: {
+            directoryPath,
+            directoryName: dirName,
+          },
+        },
+      },
+    }
+  })
+}
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>ide &lt;folder name&gt;</string>
+				<key>title</key>
+				<string>Loading local repositories...</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>9562ABD9-902D-4285-879F-97209348EAF8</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>idea $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>11989816-10AF-408A-9F8C-F81495B6537C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:repoUrl}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>688513CD-C9CB-431C-93F6-44B112C67398</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>docker-compose</string>
+						<key>outputlabel</key>
+						<string>docker-compose</string>
+						<key>uid</key>
+						<string>07407E75-C4DD-4650-BCCA-2A6BF62038AF</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>github</string>
+						<key>outputlabel</key>
+						<string>github</string>
+						<key>uid</key>
+						<string>53E73C22-E4BB-4CFF-8C61-B19A791114A2</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>finder</string>
+						<key>outputlabel</key>
+						<string>finder</string>
+						<key>uid</key>
+						<string>A7AF0423-6D43-409F-88EF-992A8C72DBC2</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>B0A78364-08F7-4C8F-958D-D3DA459E64BF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>const app = Application.currentApplication()
+app.includeStandardAdditions = true
+
+const finderApp = Application("Finder")
+
+ObjC.import("stdlib") // Support getenv
+const directoryPath = $.getenv("directoryPath")
+const postgresPath = Path(directoryPath + "/postgres")
+const dbPath = Path(directoryPath + "/db")
+
+const directory = app.doShellScript("pwd")
+const iconFilePaths = {
+  docker: directory + "/docker.png",
+  github: directory + "/github.png",
+  finder: directory + "/finder.png",
+}
+
+function run() {
+  const scriptFilterOutput = {
+    items: generateScriptFilterItems(),
+  }
+  return JSON.stringify(scriptFilterOutput, null, 2)
+}
+
+function generateScriptFilterItems() {
+  const items = []
+
+  if (finderApp.exists(postgresPath)) {
+    items.push(getDockerComposeItem(postgresPath.toString()))
+  }
+  if (finderApp.exists(dbPath)) {
+    items.push(getDockerComposeItem(dbPath.toString()))
+  }
+
+  items.push(getGithubRepoLink())
+
+  items.push({
+    title: `Open in finder`,
+    subtitle: directoryPath,
+    arg: "finder",
+    icon: { path: iconFilePaths.finder },
+    variables: {
+      directoryPath,
+    },
+  })
+
+  return items
+}
+
+function getGithubRepoLink() {
+  const command = String.raw`git -C ${directoryPath} remote get-url origin | sed 's/^git@github.com:/https:\/\/github.com\//' | sed 's/.git$//'`
+  const repoUrl = app.doShellScript(command)
+  return {
+    title: `Open on github`,
+    subtitle: repoUrl,
+    arg: "github",
+    icon: { path: iconFilePaths.github },
+    variables: {
+      repoUrl,
+    },
+    mods: {
+      cmd: {
+        subtitle: "Open pull requests",
+        variables: {
+          repoUrl: repoUrl + "/pulls",
+        },
+      },
+    },
+  }
+}
+
+function getDockerComposeItem(dockerComposeDirectory) {
+  return {
+    title: "Docker compose",
+    subtitle: `Start db`,
+    arg: "docker-compose",
+    icon: { path: iconFilePaths.docker },
+    variables: {
+      dockerComposeFilePath: dockerComposeDirectory + "/docker-compose.yml",
+    },
+  }
+}
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Loading directory actions</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>161263C0-30DF-4081-AD7B-06C661C1EA2F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3846A3F1-381B-4916-A2FF-C1AB827830C3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>{var:directoryPath}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>2B826681-6AF8-4D2C-9F31-D9B5598680CD</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" https://studio-token.vcm-staging.sh | pbcopy</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E3B06560-3AD9-481D-B761-A09AA21BBF74</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>Unsupported action: {query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>A4BFB489-C8D8-4FE9-A67C-2C1F7C214AE5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This is a workflow that allows you to easily open up any local git repository in vscode or intellij (alt modifier). It also supports opening up any directory which contains a package.json file, which can be useful when working with large monorepos.
+
+It ignores node modules and test folders.
+
+By hitting cmd you can find other relevant actions related to the repo</string>
+	<key>uidata</key>
+	<dict>
+		<key>0DBB7CAE-9C23-4DBA-9A5F-1AAF12E43126</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Start service container</string>
+			<key>xpos</key>
+			<real>1610</real>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
+		<key>11989816-10AF-408A-9F8C-F81495B6537C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Open in IntelliJ</string>
+			<key>xpos</key>
+			<real>720</real>
+			<key>ypos</key>
+			<real>565</real>
+		</dict>
+		<key>161263C0-30DF-4081-AD7B-06C661C1EA2F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>Show directory options</string>
+			<key>xpos</key>
+			<real>720</real>
+			<key>ypos</key>
+			<real>715</real>
+		</dict>
+		<key>2729AEAA-7925-4D42-B4B6-20857BB1DFCD</key>
+		<dict>
+			<key>note</key>
+			<string>Clear query</string>
+			<key>xpos</key>
+			<real>1410</real>
+			<key>ypos</key>
+			<real>365</real>
+		</dict>
+		<key>2B826681-6AF8-4D2C-9F31-D9B5598680CD</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Open directory in finder</string>
+			<key>xpos</key>
+			<real>1205</real>
+			<key>ypos</key>
+			<real>770</real>
+		</dict>
+		<key>2ED2888D-EC8F-412E-BE2A-3487DB9BBD7D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Open in VSCode</string>
+			<key>xpos</key>
+			<real>720</real>
+			<key>ypos</key>
+			<real>415</real>
+		</dict>
+		<key>3846A3F1-381B-4916-A2FF-C1AB827830C3</key>
+		<dict>
+			<key>note</key>
+			<string>Clear query</string>
+			<key>xpos</key>
+			<real>565</real>
+			<key>ypos</key>
+			<real>745</real>
+		</dict>
+		<key>61A96D63-1886-4DF9-8A21-CB45301786A4</key>
+		<dict>
+			<key>note</key>
+			<string>Clear query</string>
+			<key>xpos</key>
+			<real>1095</real>
+			<key>ypos</key>
+			<real>520</real>
+		</dict>
+		<key>66AAC14A-8C97-43A2-B59A-04A7E1AA8928</key>
+		<dict>
+			<key>xpos</key>
+			<real>90</real>
+			<key>ypos</key>
+			<real>565</real>
+		</dict>
+		<key>688513CD-C9CB-431C-93F6-44B112C67398</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Open repo on github</string>
+			<key>xpos</key>
+			<real>1205</real>
+			<key>ypos</key>
+			<real>630</real>
+		</dict>
+		<key>9562ABD9-902D-4285-879F-97209348EAF8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>Select which (local) repository to work on</string>
+			<key>xpos</key>
+			<real>305</real>
+			<key>ypos</key>
+			<real>565</real>
+		</dict>
+		<key>A4BFB489-C8D8-4FE9-A67C-2C1F7C214AE5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Fallback (no action found)</string>
+			<key>xpos</key>
+			<real>1205</real>
+			<key>ypos</key>
+			<real>910</real>
+		</dict>
+		<key>B0A78364-08F7-4C8F-958D-D3DA459E64BF</key>
+		<dict>
+			<key>xpos</key>
+			<real>900</real>
+			<key>ypos</key>
+			<real>705</real>
+		</dict>
+		<key>D7682C84-4810-41CD-805A-AFDF131AACEC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>note</key>
+			<string>Initiate workflow for copying login info</string>
+			<key>xpos</key>
+			<real>1610</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
+		<key>E08459F6-E9A5-4893-982E-810AF17EC153</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>Select service to start</string>
+			<key>xpos</key>
+			<real>1205</real>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
+		<key>E3B06560-3AD9-481D-B761-A09AA21BBF74</key>
+		<dict>
+			<key>xpos</key>
+			<real>520</real>
+			<key>ypos</key>
+			<real>845</real>
+		</dict>
+		<key>FD775086-E368-44D4-8897-22E9AE2D1DDF</key>
+		<dict>
+			<key>note</key>
+			<string>Set query to directoryName</string>
+			<key>xpos</key>
+			<real>1525</real>
+			<key>ypos</key>
+			<real>365</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variables</key>
+	<dict>
+		<key>repo_path</key>
+		<string>/Users/fredriklindberg/git</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>repo_path</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
