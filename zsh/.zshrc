@@ -25,5 +25,8 @@ eval "$(zoxide init --cmd cd zsh)"
 # Set up zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Temporary setting to enable pnpm pinning for volta
+export VOLTA_FEATURE_PNPM=1
+
 # Load script functions
 # [ -f $ZSH_DIR/scripts/open-in-github.zsh ] && source $ZSH_DIR/scripts/open-in-github.zsh # Disable when using githubs cli tool
