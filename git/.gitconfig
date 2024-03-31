@@ -14,6 +14,7 @@
 	cpa = !git cherry-pick --abort
 	cp = !git cherry-pick
 	bg = !git branch -r | grep
+	wip = "!f() { git commit -m \"WIP-$1\" --no-verify ; }; f"
 	cma = !git commit --amend
 	cman = !git commit --amend --no-edit --no-verify
 	autoFixup = !git hasStagedChanges && git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git -c sequence.editor=: rebase -i --autosquash $1~1  && git stash pop && :
