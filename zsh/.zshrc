@@ -14,6 +14,7 @@ export PATH
 [ -f $ZSH_DIR/node.zsh ] && source $ZSH_DIR/node.zsh
 [ -f $ZSH_DIR/oh-my-zsh.zsh ] && source $ZSH_DIR/oh-my-zsh.zsh
 [ -f $ZSH_DIR/vim.zsh ] && source $ZSH_DIR/vim.zsh
+[ -f $ZSH_DIR/git.zsh ] && source $ZSH_DIR/git.zsh
 [ -f $ZSH_DIR/company-specific.zsh ] && source $ZSH_DIR/company-specific.zsh
 
 # Set up fzf key bindings and fuzzy completion
