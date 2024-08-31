@@ -55,6 +55,8 @@
 - Hide as much as possible from menu bar and make time more compact (will easily fill up with stuff)
 - Reverse fn key function (Use F1-9 without pressing it)
 - Enable trackpad gesture to zoom (double click with three fingers)
+- Disable two finger swip back/forward in browsers. See [this](https://www.reddit.com/r/ArcBrowser/comments/16rns6t/comment/kg2dvoi/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) for arc
+- Disable trackpad look up & date detectors. See [this](https://www.lambdatest.com/software-testing-questions/how-to-stop-the-dictionary-from-popping-up-on-mac)
 
 ### Other config
 
