@@ -7,6 +7,12 @@ alias etig="nvim ~/.tigrc"
 alias fzfvim='nvim $(fzf)'
 alias fzfvimhidden='nvim $(find . | fzf)'
 alias home="cd ~"
+
+pil() {
+  package=$1
+  pnpm i $package@latest
+}
+
 prvieworcreate() {
   bodyParam="--body ''"
   template=$1
