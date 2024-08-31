@@ -5,6 +5,7 @@
 	editor = code --wait
 	excludesfile = ~/git/personal/dotfiles/git/.gitignore_global
 [alias]
+	wip = "!f() { git commit -m \"WIP-$1\" --no-verify ; }; f"
 	hasStagedChanges = "!f() { \
 		       git diff --cached --quiet && git status && return 1 2>/dev/null || return 0; \
 		     }; f"
@@ -14,12 +15,23 @@
 	cpa = !git cherry-pick --abort
 	cp = !git cherry-pick
 	bg = !git branch -r | grep
-	wip = "!f() { git commit -m \"WIP-$1\" --no-verify ; }; f"
-	cma = !git commit --amend
+	bl = !git for-each-ref --count=5 --sort=-committerdate refs/heads/ --format='%(refname:short)'
+	ureset = !git reset --hard @{u}
+	oreset = !git reset --hard origin/main || git reset --hard origin/master
+	orebase = !git rebase origin/main || git rebase origin/master
+	oc = !git checkout origin/main || git checkout origin/master
+	lc = !git checkout -
+	s = !git stash --include-untracked
+	sp = !git stash pop
+	cmaen = !git commit --amend --no-verify
 	cman = !git commit --amend --no-edit --no-verify
+	cmln = "!f() { git commit -C @{$1} --no-verify ; }; f"
 	autoFixup = !git hasStagedChanges && git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git -c sequence.editor=: rebase -i --autosquash $1~1  && git stash pop && :
 	interactiveFixup = !git hasStagedChanges && git stash push --keep-index --include-untracked && git commit --fixup=$1 --no-verify && git rebase -i --autosquash $1~1 && git stash pop && :
 	please = push --force-with-lease
+	author=!git log -1 --pretty=\"%an <%ae>\" $1
+	cmln = "!f() { git commit -C @{$1} --no-verify ; }; f"
+	cm = "!f() { if [[ ${#1} > 72 ]]; then echo \"Commit message is too long. Please keep it under 72 characters.\"; else git commit -m \"$1\" ; fi; }; f"
 [push]
 	autoSetupRemote = true
 	default = current
