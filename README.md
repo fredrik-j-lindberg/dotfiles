@@ -5,7 +5,7 @@
 ### Setting up zsh/prompt
 
 1. Install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh?tab=readme-ov-file#getting-started)
-1. Install homebrew
+1. Install [homebrew](https://brew.sh/)
    1. Install [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#getting-started)
    1. Install [fzf (fuzzy find)](https://github.com/junegunn/fzf?tab=readme-ov-file#using-homebrew)
    1. Install [zioxide (smart cd)](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation)
