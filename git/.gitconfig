@@ -34,7 +34,7 @@
 	please = push --force-with-lease
 	author=!git log -1 --pretty=\"%an <%ae>\" $1
 	cmln = "!f() { git commit -C @{$1} --no-verify ; }; f"
-	cm = "!f() { if [[ ${#1} > 72 ]]; then echo \"Commit message is too long. Please keep it under 72 characters.\"; else git commit -m \"$1\" ; fi; }; f"
+	cm = "!f() { if [[ ${#1} > 72 ]]; then echo \"Commit message is too long (\"${#1}\"). Please keep it under 72 characters.\" ; else git commit -m \"$1\" ; fi; }; f"
 [push]
 	autoSetupRemote = true
 	default = current
