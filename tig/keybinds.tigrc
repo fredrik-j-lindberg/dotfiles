@@ -21,6 +21,10 @@ bind generic 2 ?<git rebase -i --exec "npm run test" %(commit)~1
 # Initiate an interactive fixup of currently staged changes into selected commit (uses git alias)
 bind generic 9 <git interactiveFixup %(commit)
 
+# Put everything after selected commit ontop of latest main. Useful when working with stacked branches to avoid merge conflicts when rebasing
+# bind generic 8 ?<git fetch && git rebase --onto origin/main %(commit)
+bind generic 8 ?<sh -c "{ git fetch && git rebase --onto origin/main %(commit); }"
+
 # Commit staged changes (and unbind ctrl+C as quit)
 bind generic <Ctrl-C> none
 bind generic <Ctrl-c> @git commit
