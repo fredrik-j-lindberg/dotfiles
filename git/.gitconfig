@@ -16,10 +16,13 @@
 	cp = !git cherry-pick
 	bg = !git branch -r | grep
 	bl = !git for-each-ref --count=5 --sort=-committerdate refs/heads/ --format='%(refname:short)'
-	ureset = !git reset --hard @{u}
-	oreset = !git reset --hard origin/main || git reset --hard origin/master
-	orebase = !git rebase origin/main || git rebase origin/master
-	oc = !git checkout origin/main || git checkout origin/master
+	# Reset to upstream version of current branch
+	ureset = !git fetch && git reset --hard @{u}
+	# Reset to origin main or master
+	oreset = !git fetch && git reset --hard origin/main || git reset --hard origin/master
+	# Rebase on origin main or master
+	orebase = !git fetch && git rebase origin/main || git rebase origin/master
+	oc = !git fetch && git checkout origin/main || git checkout origin/master
 	lc = !git checkout -
 	s = !git stash --include-untracked
 	sp = !git stash pop
