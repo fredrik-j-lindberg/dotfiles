@@ -3,7 +3,7 @@ export ZSH_DIR="$DOTFILES_DIR/zsh"
 export HISTFILE=$ZSH_DIR/.zsh_history
 
 # Make brew command available on path
-path+=(/opt/homebrew/bin)
+path=('/opt/homebrew/bin' $path)
 # Make most commands available on path
 path+=($HOME/bin:/usr/local/bin)
 export PATH
