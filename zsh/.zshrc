@@ -23,9 +23,6 @@ eval "$(fzf --zsh)"
 # Set up smart cd with zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
-# Set up zsh-autosuggestions
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 # Temporary setting to enable pnpm pinning for volta
 export VOLTA_FEATURE_PNPM=1
 
