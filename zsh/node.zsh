@@ -1,5 +1,5 @@
 #--<load node (and npm) using nvm>
-# export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="$HOME/.nvm"
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use  # This loads nvm
 if [ -f ".nvmrc" ]; then
