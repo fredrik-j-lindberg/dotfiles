@@ -17,3 +17,6 @@ wallaby.js
 yalc.lock
 
 .env
+
+# Ignore node modules temp name (used e.g. debugging node modules)
+node_modules_*
