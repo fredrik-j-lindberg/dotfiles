@@ -5,7 +5,7 @@
 	editor = code --wait
 	excludesfile = ~/git/personal/dotfiles/git/.gitignore_global
 [alias]
-	wip = "!f() { git commit -m \"WIP-$1\" --no-verify ; }; f"
+	wip = "!f() { git commit -m \"WIP-$1 [skip ci]\" --no-verify ; }; f"
 	hasStagedChanges = "!f() { \
 		       git diff --cached --quiet && git status && return 1 2>/dev/null || return 0; \
 		     }; f"
