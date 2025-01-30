@@ -3,7 +3,7 @@
 ### Initial steps
 
 1. Create a ~/git and a ~/git/personal folder.
-   - Save the git folder to the finder favorites for easy access
+   - Save the git folder to the Finder favorites for easy access
 1. Install git (`git -v` should show if you have it and guide you through installing it if not)
 1. Clone this project into the personal folder, so you end up creating this folder structure: `~/git/personal/dotfiles` (path structure is used for symlinking etc)
    ```bash
@@ -85,6 +85,7 @@
 - Top menu bar:
   - Make time more compact. `Control Center / Menu Bar Only / Clock Options...` (e.g. disable day of week)
   - Hide as many icons as possible as possible as it will easily fill up with stuff. (e.g. disable spotlight, `Control Center / Menu Bar Only / Spotlight`)
+- Allow opening folder in VsCode from Finder. [Reference SO answer](https://stackoverflow.com/a/75736771)
 
 ### Other config
 
